@@ -13,7 +13,7 @@ function MainContent() {
         {/* LEFT: Picture */}
         <div className="md:w-1/2 w-full flex items-center justify-center">
           <img
-            src="/pic1.jpg"
+            src="./images/pic1.jpg"
             alt="Your picture"
             className="w-full max-h-[500px] object-cover object-bottom rounded-2xl border-4 border-cyan-400 shadow-md hover:scale-105 transition-transform duration-500"
           />

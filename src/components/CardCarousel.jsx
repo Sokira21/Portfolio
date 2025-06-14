@@ -10,47 +10,47 @@ const slides = [
   {
     title: 'HTML',
     description: 'Semantic and accessible markup, used to structure web content. ',
-    image: '/skills/html_logo.png',
+    image: './images/skills/html_logo.png',
   },
   {
     title: 'CSS',
     description: 'Styling web content using Flexbox, Grid, and responsive design techniques.',
-    image: '/skills/css_logo.png',
+    image: './images/skills/css_logo.png',
   },
   {
     title: 'JavaScript',
     description: 'Dynamic client-side programming, DOM manipulation, and ES6+ features. Also I am using JavaScript not just for the interactive design but also for the backend',
-    image: '/skills/js_logo.webp',
+    image: './images/skills/js_logo.webp',
   },
   {
     title: 'React',
     description: 'Component-based UI development, state management, and hooks. Especially with web based projects',
-    image: '/skills/react_logo.png',
+    image: './images/skills/react_logo.png',
   },
   {
     title: 'Tailwind CSS',
     description: 'Utility-first CSS framework for fast UI development. Great tool to utilize with React',
-    image: '/skills/tailwind_logo.png',
+    image: './images/skills/tailwind_logo.png',
   },
   {
     title: 'PHP',
     description: 'Server-side scripting language for backend development. One of the first web programming language that I learned and had so much fun',
-    image: '/skills/php_logo.jpg',
+    image: './images/skills/php_logo.jpg',
   },
   {
     title: 'MySQL',
     description: 'Relational database management and SQL querying.',
-    image: '/skills/mysql_logo.png',
+    image: './images/skills/mysql_logo.png',
   },
   {
     title: 'Laravel',
     description: 'PHP framework for elegant backend solutions with MVC architecture.',
-    image: '/skills/laravel_logo.png',
+    image: './images/skills/laravel_logo.png',
   },
   {
     title: 'Git & GitHub',
     description: 'Version control and collaboration using Git workflows and repositories.',
-    image: '/skills/github_logo.png',
+    image: './images/skills/github_logo.png',
   },
 ];
 

@@ -54,9 +54,9 @@ function Footer() {
             <h2 className="text-xl font-semibold text-cyan-400 mb-4">Follow me</h2>
             <div>
                 <img
-                    src="/pic1.jpg"
+                    src="./images/pic2.jpg"
                     alt="Your picture"
-                    className="w-50 h-50 object-cover object-bottom rounded-full border-4 border-cyan-400 shadow-md hover:scale-105 transition-transform duration-500"
+                    className="w-50 h-50 object-cover object-top rounded-full border-4 border-cyan-400 shadow-md hover:scale-105 transition-transform duration-500"
                 />
             </div>
             <div className="flex gap-4 mt-5">

@@ -12,28 +12,28 @@ function InteractiveCarousel() {
       title: 'Portfolio',
       tech: ['React', 'Tailwind', 'Laravel'],
       num: '01',
-      img: './projects/portfolio.jpg',
+      img: './images/projects/portfolio.jpg',
       description: 'A personal portfolio site built using React, styled with Tailwind, and backed by a Laravel API.'
     },
     {
       title: 'Intelligent Crime Mapping In Legazpi City, An Information System',
       tech: ['Python', 'Machine Learning', 'Natural Language Processing', 'MySQL'],
       num: '02',
-      img: './projects/crime_mapping.jpg',
+      img: './images/projects/crime_mapping.jpg',
       description: 'My College thesis that focus on machine learning and Natural language processing. Utilizing the web scrapper to collect news articles and baed from the collected articles it will be tokenized and be feed to the machine to calculate the accurate Crime rate in Legazpi City in Realtime'
     },
     {
       title: 'Blank Ecommerce',
       tech: ['React', 'Laravel', 'MySQL', 'Ongoing'],
       num: '03',
-      img: './projects/blank_ecom.png',
+      img: './images/projects/blank_ecom.png',
       description: 'An e-commerce platform with basic product browsing, cart, and order management. Still an ongoing project that will utilize react for front-end laravel for backend MySql for database'
     },
     {
       title: 'Jake_AI',
       tech: ['Python', 'Flask', 'Tailwind', 'Ongoing'],
       num: '04',
-      img: './projects/Jake_AI.png',
+      img: './images/projects/Jake_AI.png',
       description: 'A fun project that I will be doing, An AI with my personality'
     }
   ];

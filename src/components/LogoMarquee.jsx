@@ -3,15 +3,15 @@ import React from 'react';
 import './LogoMarquee.css';
 
 const logos = [
-  '/skills/html_logo.png',
-  '/skills/css_logo.png',
-  '/skills/js_logo.webp',
-  '/skills/react_logo.png',
-  '/skills/tailwind_logo.png',
-  '/skills/php_logo.jpg',
-  '/skills/mysql_logo.png',
-  '/skills/laravel_logo.png',
-  '/skills/github_logo.png',
+  './images/skills/html_logo.png',
+  './images/skills/css_logo.png',
+  './images/skills/js_logo.webp',
+  './images/skills/react_logo.png',
+  './images/skills/tailwind_logo.png',
+  './images/skills/php_logo.jpg',
+  './images/skills/mysql_logo.png',
+  './images/skills/laravel_logo.png',
+  './images/skills/github_logo.png',
 ];
 
 export default function LogoMarquee() {

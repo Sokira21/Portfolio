@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import {useState, useEffect} from "react";
 
 const images = [
-  "/catc_logo.png",
-  "/catc_main.png",
-  "/catc_ext.png"
+  "./images/catc_logo.png",
+  "./images/catc_main.png",
+  "./images/catc_ext.png"
 ]
 
 function About() {
