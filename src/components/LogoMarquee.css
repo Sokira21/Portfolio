@@ -1,0 +1,31 @@
+/* src/components/LogoMarquee.css */
+
+.logo-marquee-container {
+  overflow: hidden;
+  width: 100%;
+  background-color: transparent;
+  padding: 1rem 0;
+}
+
+.logo-marquee-track {
+  display: flex;
+  gap: 2rem;
+  animation: scroll 25s linear infinite;
+  width: fit-content;
+}
+
+.logo-image {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px rgba(0, 255, 255, 0.3));
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,48 @@
+/* src/components/CardCarousel.css */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: transparent; /* deep slate background */
+  color: #f1f5f9; /* light text for readability */
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 300px;
+  height: 380px;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: rgba(18, 18, 18, 0.6); /* matches bg-[#121212]/60 */
+  backdrop-filter: blur(6px);
+  border: 1px solid #334155; /* slate border */
+  color: #f1f5f9; /* text-slate-100 */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide:hover {
+  transform: scale(1.03);
+}
+
+/* Remove old rainbow backgrounds */
+.swiper-slide:nth-child(n) {
+  background-color: rgba(18, 18, 18, 0.6); /* uniform slide background */
+}
